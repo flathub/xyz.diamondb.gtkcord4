@@ -39,7 +39,7 @@ github.com/danieljoos/wincred
 # github.com/diamondburned/adaptive v0.0.2-0.20221227093656-fa139be203a8
 ## explicit; go 1.17
 github.com/diamondburned/adaptive
-# github.com/diamondburned/arikawa/v3 v3.1.1-0.20221205015406-73285954a1e9
+# github.com/diamondburned/arikawa/v3 v3.2.1-0.20230131081350-00c3ed4b8afd
 ## explicit; go 1.16
 github.com/diamondburned/arikawa/v3/api
 github.com/diamondburned/arikawa/v3/api/rate
@@ -103,7 +103,7 @@ github.com/diamondburned/gotk4/pkg/graphene
 github.com/diamondburned/gotk4/pkg/gsk/v4
 github.com/diamondburned/gotk4/pkg/gtk/v4
 github.com/diamondburned/gotk4/pkg/pango
-# github.com/diamondburned/gotkit v0.0.0-20221217224254-30e97c8b6598
+# github.com/diamondburned/gotkit v0.0.0-20230131094355-0f2a6e285d1e
 ## explicit; go 1.17
 github.com/diamondburned/gotkit/app
 github.com/diamondburned/gotkit/app/locale
