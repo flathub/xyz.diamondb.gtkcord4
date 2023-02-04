@@ -1,11 +1,23 @@
 diff --git a/xyz.diamondb.gtkcord4.metainfo.xml b/xyz.diamondb.gtkcord4.metainfo.xml
-index 85cd239..68984f3 100644
+index 85cd239..01a3b49 100644
 --- a/xyz.diamondb.gtkcord4.metainfo.xml
 +++ b/xyz.diamondb.gtkcord4.metainfo.xml
-@@ -29,6 +29,9 @@
+@@ -17,7 +17,7 @@
+   <launchable type="desktop-id">xyz.diamondb.gtkcord4.desktop</launchable>
+   <screenshots>
+     <screenshot type="default">
+-      <image>https://raw.githubusercontent.com/diamondburned/gtkcord4/main/.github/screenshot2.png</image>
++      <image>https://raw.githubusercontent.com/diamondburned/gtkcord4/main/.github/screenshot4.png</image>
+     </screenshot>
+   </screenshots>
+ 
+@@ -29,6 +29,12 @@
      <content_attribute id="money-purchasing">intense</content_attribute>
    </content_rating>
    <releases>
++    <release version="v0.0.8" date="2023-02-02">
++      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.8</url>
++    </release>
 +    <release version="v0.0.7" date="2023-02-01">
 +      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.7</url>
 +    </release>
