@@ -26,7 +26,7 @@ modules:
       env:
         GOBIN: /app/bin
     build-commands:
-      - go install -v -tags libadwaita -mod=vendor ./...
+      - go install -v -mod=vendor ./...
       - desktop-file-edit --set-icon=$FLATPAK_ID --remove-key=DBusActivatable nix/$FLATPAK_ID.desktop
       - install -Dm644 nix/$FLATPAK_ID.desktop /app/share/applications/$FLATPAK_ID.desktop
       - install -Dm644 internal/icons/svg/logo.svg /app/share/icons/hicolor/scalable/apps/$FLATPAK_ID.svg
@@ -34,7 +34,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/diamondburned/gtkcord4
-        tag: v0.0.9
+        tag: v0.0.10
 
       - type: patch
         path: metainfo.patch
@@ -63,22 +63,22 @@ modules:
         sha256: c1cda9eb42f13b85167f77e305dd32d3d97100d58ee5b50473ac3abad304d98f
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/gotk4-adwaita/pkg/@v/v0.0.0-20230105075138-e92a3b568c9e.zip
+        url: https://proxy.golang.org/github.com/diamondburned/gotk4-adwaita/pkg/@v/v0.0.0-20230307050941-20a05fa3a9df.zip
         strip-components: 4
         dest: vendor/github.com/diamondburned/gotk4-adwaita/pkg
-        sha256: 0379c283ebd460f74c3c9a81976ebdf43498aab7dea2ae475647b3f0d336cc4b
+        sha256: 315f297e478aeec091667bf1b3423a84eccd634d970744f8dc2f4f316c7485ed
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/gotk4/pkg/@v/v0.0.5-0.20230105054822-f46414fdaa94.zip
+        url: https://proxy.golang.org/github.com/diamondburned/gotk4/pkg/@v/v0.0.5-0.20230307013122-e86c9b44a4bf.zip
         strip-components: 4
         dest: vendor/github.com/diamondburned/gotk4/pkg
-        sha256: b2ea80018eafc4ec7f2cddd92a683f54635fd2caeaadc148c350b092caeea9e9
+        sha256: d071e47148f1b68e74547fa3a5ec29abeed8d9d31cdb039d78da7e881985c5ea
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/gotkit/@v/v0.0.0-20230131094355-0f2a6e285d1e.zip
+        url: https://proxy.golang.org/github.com/diamondburned/gotkit/@v/v0.0.0-20230307054845-dc8ab38b9db4.zip
         strip-components: 3
         dest: vendor/github.com/diamondburned/gotkit
-        sha256: d6ff54aba84bc7d147aae3b37606836b133a0371b02884ebc0867963d99d4e72
+        sha256: 238e5ff743dff22176a3036c3f25a0e15db77a6fafa8eb8c138e418eece7b743
 
       - type: archive
         url: https://proxy.golang.org/github.com/diamondburned/ningen/v3/@v/v3.0.1-0.20230124093205-d39554fd5d67.zip
@@ -241,3 +241,4 @@ modules:
         strip-components: 3
         dest: vendor/golang.org/x/tools
         sha256: ed841ca9fe976973656ae79236a78806b225ddf92137205c149de36ec4c71cf4
+

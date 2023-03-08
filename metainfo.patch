@@ -1,5 +1,5 @@
 diff --git a/xyz.diamondb.gtkcord4.metainfo.xml b/xyz.diamondb.gtkcord4.metainfo.xml
-index 85cd239..3cc0673 100644
+index 85cd239..11d2d02 100644
 --- a/xyz.diamondb.gtkcord4.metainfo.xml
 +++ b/xyz.diamondb.gtkcord4.metainfo.xml
 @@ -17,7 +17,7 @@
@@ -11,9 +11,13 @@ index 85cd239..3cc0673 100644
      </screenshot>
    </screenshots>
  
-@@ -29,6 +29,15 @@
+@@ -28,7 +28,19 @@
+     <content_attribute id="social-contacts">intense</content_attribute>
      <content_attribute id="money-purchasing">intense</content_attribute>
    </content_rating>
++    <release version="v0.0.10" date="2023-03-08">
++      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.10</url>
++    </release>
    <releases>
 +    <release version="v0.0.9" date="2023-02-10">
 +      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.9</url>
