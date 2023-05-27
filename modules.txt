@@ -78,10 +78,10 @@ github.com/diamondburned/chatkit/md
 github.com/diamondburned/chatkit/md/block
 github.com/diamondburned/chatkit/md/hl
 github.com/diamondburned/chatkit/md/mdrender
-# github.com/diamondburned/gotk4-adwaita/pkg v0.0.0-20230307050941-20a05fa3a9df
+# github.com/diamondburned/gotk4-adwaita/pkg v0.0.0-20230307040502-bfe82926e1be
 ## explicit; go 1.18
 github.com/diamondburned/gotk4-adwaita/pkg/adw
-# github.com/diamondburned/gotk4/pkg v0.0.5-0.20230307013122-e86c9b44a4bf
+# github.com/diamondburned/gotk4/pkg v0.0.6-0.20230331141043-6dd75799f56c
 ## explicit; go 1.18
 github.com/diamondburned/gotk4/pkg/cairo
 github.com/diamondburned/gotk4/pkg/cairo/swizzle
@@ -103,8 +103,8 @@ github.com/diamondburned/gotk4/pkg/graphene
 github.com/diamondburned/gotk4/pkg/gsk/v4
 github.com/diamondburned/gotk4/pkg/gtk/v4
 github.com/diamondburned/gotk4/pkg/pango
-# github.com/diamondburned/gotkit v0.0.0-20230307054845-dc8ab38b9db4
-## explicit; go 1.17
+# github.com/diamondburned/gotkit v0.0.0-20230517061857-5e7b502784b0
+## explicit; go 1.18
 github.com/diamondburned/gotkit/app
 github.com/diamondburned/gotkit/app/locale
 github.com/diamondburned/gotkit/app/notify
@@ -188,7 +188,7 @@ github.com/zalando/go-keyring/secret_service
 # go4.org v0.0.0-20200411211856-f5505b9728dd
 ## explicit; go 1.13
 go4.org/bytereplacer
-# go4.org/unsafe/assume-no-moving-gc v0.0.0-20230209150437-ee73d164e760
+# go4.org/unsafe/assume-no-moving-gc v0.0.0-20230221090011-e4bae7ad2296
 ## explicit; go 1.11
 go4.org/unsafe/assume-no-moving-gc
 # golang.org/x/crypto v0.0.0-20210921155107-089bfa567519

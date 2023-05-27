@@ -34,7 +34,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/diamondburned/gtkcord4
-        tag: v0.0.10
+        tag: v0.0.11
 
       - type: patch
         path: metainfo.patch
@@ -63,22 +63,22 @@ modules:
         sha256: c1cda9eb42f13b85167f77e305dd32d3d97100d58ee5b50473ac3abad304d98f
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/gotk4-adwaita/pkg/@v/v0.0.0-20230307050941-20a05fa3a9df.zip
+        url: https://proxy.golang.org/github.com/diamondburned/gotk4-adwaita/pkg/@v/v0.0.0-20230307040502-bfe82926e1be.zip
         strip-components: 4
         dest: vendor/github.com/diamondburned/gotk4-adwaita/pkg
-        sha256: 315f297e478aeec091667bf1b3423a84eccd634d970744f8dc2f4f316c7485ed
+        sha256: 8ce68cfccf5143194166fabb82d2df347058fd75d1642546f5ce7aab3ace9369
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/gotk4/pkg/@v/v0.0.5-0.20230307013122-e86c9b44a4bf.zip
+        url: https://proxy.golang.org/github.com/diamondburned/gotk4/pkg/@v/v0.0.6-0.20230331141043-6dd75799f56c.zip
         strip-components: 4
         dest: vendor/github.com/diamondburned/gotk4/pkg
-        sha256: d071e47148f1b68e74547fa3a5ec29abeed8d9d31cdb039d78da7e881985c5ea
+        sha256: 4fd4ac48412ae1c49d270a249702b2019ad53a92e5dd1c5a3ff663f04d9ee7ea
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/gotkit/@v/v0.0.0-20230307054845-dc8ab38b9db4.zip
+        url: https://proxy.golang.org/github.com/diamondburned/gotkit/@v/v0.0.0-20230517061857-5e7b502784b0.zip
         strip-components: 3
         dest: vendor/github.com/diamondburned/gotkit
-        sha256: 238e5ff743dff22176a3036c3f25a0e15db77a6fafa8eb8c138e418eece7b743
+        sha256: d6f495e671f188916ff39fecfc0741366e2f3b31179eba5a7c2bee9173c9afd2
 
       - type: archive
         url: https://proxy.golang.org/github.com/diamondburned/ningen/v3/@v/v3.0.1-0.20230124093205-d39554fd5d67.zip
@@ -189,10 +189,10 @@ modules:
         sha256: 709687824a6f7d7d130c50dab26cd12a74ba0220833916bb0acdf39b0375cd13
 
       - type: archive
-        url: https://proxy.golang.org/go4.org/unsafe/assume-no-moving-gc/@v/v0.0.0-20230209150437-ee73d164e760.zip
+        url: https://proxy.golang.org/go4.org/unsafe/assume-no-moving-gc/@v/v0.0.0-20230221090011-e4bae7ad2296.zip
         strip-components: 3
         dest: vendor/go4.org/unsafe/assume-no-moving-gc
-        sha256: 1542c4913f286da266a80109bc87fa77aade14aee441c0e7f838b6a3d046534e
+        sha256: ab3c4594a0004b664c15ecb05fb8d28ed07fd4f14617880832be9cf37b443c3d
 
       - type: archive
         url: https://proxy.golang.org/golang.org/x/crypto/@v/v0.0.0-20210921155107-089bfa567519.zip
