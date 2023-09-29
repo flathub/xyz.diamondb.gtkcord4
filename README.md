@@ -8,3 +8,5 @@
     <a href="https://github.com/diamondburned/gtkcord4">
         <img alt="official repo" src="https://img.shields.io/static/v1?message=diamondburned/gtkcord4&color=CDD9E5&label=github&logo=Github&logoColor=white" /></a>
 </p>
+
+this project has been moved to https://github.com/flathub/so.libdb.gtkcord4 (renamed app-id)
